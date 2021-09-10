@@ -4,8 +4,8 @@ import Dashboard from "@/views/Dashboard.vue"
 import Login from "@/views/Login.vue"
 import Home from "@/views/Home.vue"
 import Register from "@/views/Register.vue"
-import Items from "@/views/Items.vue"
-import Wishlist from "@/views/Wishlist.vue"
+import Items from "@/components/Items.vue"
+import Wishlist from "@/components/Wishlist.vue"
 import PageNotFound from '@/views/PageNotFound.vue'
 
 const routes = [

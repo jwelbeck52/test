@@ -1,7 +1,7 @@
 
 <template>
-    <h1>Home Page</h1>
-    Welcome home
+    <h1>Welcome to Item Management Home Page</h1>
+    <p>Easily manage your owned items here...</p>
     
 </template>
 
