@@ -1,24 +1,22 @@
 <template>
-  <div class="hello">
+  <div>
     <h1>Welcome to Item Management Dashboard</h1>
+
     <p>Easily manage your owned items here...</p>
-    <div class="container">
-        <div class="sidebar">
-        sidebar
-        <Sidebar/>
-        
-      
+  </div>
+
+  <div class="container">
+    <div class="sidebar">
+      <Sidebar/>
     </div>
-    <div class="main">
-      content here
       
+    <div class="main">
       <Items/>
     </div>
 
-    </div>
-    
-    
-  </div>
+  </div> 
+
+
 </template>
 
 <script>

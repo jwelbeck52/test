@@ -1,6 +1,8 @@
 <template>
-    <div>
-        I am an item!!!
+    <div class="item">
+        <img src="../assets/images/item-1.jpeg" alt="image">
+        <br>image
+        <br>name
     </div>
 </template>
 
@@ -10,6 +12,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    .item{
+        padding: 10px;
+    }
 </style>

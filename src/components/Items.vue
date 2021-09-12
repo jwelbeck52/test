@@ -1,8 +1,39 @@
 <template>
-    <h1>Items Page</h1>
-    <Item/>
-    <Item/>
-    <Item/>
+    <section>
+        <header class="section-bar">
+            <h1 class="section-title">My Items (3)</h1>
+            <div class="section-button">
+                <button >See all</button>
+            </div>
+            
+        
+        </header>
+        <div class="section-content">
+                <Item/>
+                <Item/>
+                <Item/>
+        </div>
+    </section>
+
+    <section>
+        <header class="section-bar">
+            <h1 class="section-title">My Wishlist (3)</h1>
+            <div class="section-button">
+                <button >See all</button>
+            </div>
+            
+        
+        </header>
+        <div class="section-content">
+                <Item/>
+                <Item/>
+                <Item/>
+        </div>
+    </section>
+    
+    
+    
+    
 </template>
 
 <script>
@@ -16,7 +47,22 @@ export default {
 </script>
 
 <style scoped>
-/* p{
-    margin:0;
-} */
+.section-content{
+    display: flex;
+    
+}
+
+.section-bar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section-title{
+    
+}
+
+.section-button{
+    
+}
 </style>

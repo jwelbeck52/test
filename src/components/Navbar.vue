@@ -1,5 +1,5 @@
 <template>
-<div class = "navbar">
+<nav class = "navbar">
     <ul>
         <li><router-link to = "/">Home </router-link></li>
         <li><router-link to = "/dashboard">Dashboard </router-link></li>
@@ -9,7 +9,7 @@
         <!-- <li><router-link to = "/items">Items </router-link></li>
         <li><router-link to = "/wishlist">Wishlist </router-link></li> -->
     </ul>
-</div>
+</nav>
     
 </template>
 
