@@ -34,5 +34,15 @@ export default {
  
 }
 
+.navbar {
+    background: blue;
+    min-width: 100vw;
+    width: 100%;
+    
+    
+    
+    
+}
+
 
 </style>

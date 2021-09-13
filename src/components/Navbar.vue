@@ -23,23 +23,26 @@ export default {
 <style scoped>
 .navbar {
     background: blue;
+    min-width: 100%;
+    
+    
+    
     
     
 }
 
 ul {
-    width: 60%;
-    margin: auto;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0 10px 0;
+    /* flex-wrap: wrap; */
+    
 }
 
 li {
-    
-    
+    /* padding: 10px; */
+    margin: 5px;
 }
 
 a{

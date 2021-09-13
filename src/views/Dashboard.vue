@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <h1>Welcome to Item Management Dashboard</h1>
-
-    <p>Easily manage your owned items here...</p>
-  </div>
+  
 
   <div class="container">
     <div class="sidebar">
@@ -11,6 +7,11 @@
     </div>
       
     <div class="main">
+      <div>
+        <h3>Welcome to Item Management Dashboard</h3>
+
+        <p>Easily manage your owned items here...</p>
+      </div>
       <Items/>
     </div>
 
@@ -37,19 +38,23 @@ export default {
 
 .container {
   display:flex;
+  
 }
 
 .sidebar{
-  width:20%;
+  min-width: fit-content;
   /* display:inline-block; */
   min-height: 200px;
   height: fit-content;
   background: yellow;
+  
+  display: none;
 }
 .main{
-  width:80%;
   /* display: inline-block; */
   min-height: 700px;
   background: orange;
+  flex-grow: 2;
+  
 }
 </style>

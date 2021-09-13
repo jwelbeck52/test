@@ -49,6 +49,7 @@ export default {
 <style scoped>
 .section-content{
     display: flex;
+    flex-wrap: wrap;
     
 }
 

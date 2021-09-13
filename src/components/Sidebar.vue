@@ -1,6 +1,6 @@
 <template>
-    <h1>Sidebar here</h1>
-    <aside>
+    <h1>Sidebar</h1>
+    <aside class="sidebar">
         <ul>
         <li><router-link to = "/">Home </router-link></li>
         <li><router-link to = "/login">Login </router-link></li>
@@ -20,5 +20,8 @@ export default {
 </script>
 
 <style scoped>
-
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+    }
 </style>
