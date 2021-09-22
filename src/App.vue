@@ -2,7 +2,7 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <Dashboard msg="Welcome to Your Vue.js App"/> -->
   <!-- <br> -->
-  <Navbar />
+  <Navbar/>
   <router-view/>
   <!-- <Login></Login> -->
 </template>
@@ -10,15 +10,11 @@
 <script>
 // import Dashboard from './views/Dashboard.vue'
 // import Login from './views/Login.vue'
-import Navbar from './components/Navbar.vue'
+
 
 export default {
   name: 'App',
-  components: {
-    Navbar,
-    // Login,
-    // Dashboard
-  }
+  
 }
 </script>
 
@@ -32,16 +28,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  
-}
-
-.navbar {
-    background: blue;
-    min-width: 100vw;
-    width: 100%;
-    
-    
-    
-    
 }
 
 

@@ -1,16 +1,18 @@
 <template>
   
-
+    <Navbar_Dashboard/>
   <div class="container">
     <div class="sidebar">
       <Sidebar/>
     </div>
       
     <div class="main">
+      <br>
       <div>
         <h3>Welcome to Item Management Dashboard</h3>
 
         <p>Easily manage your owned items here...</p>
+        <br>
       </div>
       <Items/>
     </div>
@@ -23,11 +25,13 @@
 <script>
 import Items from '../components/Items.vue'
 import Sidebar from '../components/Sidebar.vue'
+import Navbar_Dashboard from '../components/Navbar_Dashboard.vue'
 export default {
   name: 'Dashboard',
   components: {
     Items,
     Sidebar,
+    Navbar_Dashboard,
   }
 
 }

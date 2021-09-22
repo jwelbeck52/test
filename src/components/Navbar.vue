@@ -20,7 +20,7 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
 .navbar {
     background: blue;
     min-width: 100%;

@@ -1,6 +1,6 @@
 <template>
     <h1>Login Page</h1>
-    hi there
+        This page should not have a navbar
 </template>
 
 <script>

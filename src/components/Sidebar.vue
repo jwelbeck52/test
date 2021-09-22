@@ -2,12 +2,12 @@
     <h1>Sidebar</h1>
     <aside class="sidebar">
         <ul>
-        <li><router-link to = "/">Home </router-link></li>
-        <li><router-link to = "/login">Login </router-link></li>
-        <li><router-link to = "/register">Register </router-link></li>
         <li><router-link to = "/dashboard">Dashboard </router-link></li>
-        <li><router-link to = "/items">Items </router-link></li>
-        <li><router-link to = "/wishlist">Wishlist </router-link></li>
+        <li><router-link to = "/login">My Items </router-link></li>
+        <li><router-link to = "/register">My Wishlist </router-link></li>
+        <li><router-link to = "/dashboard">Statistics</router-link></li>
+        <!-- <li><router-link to = "/items">Items </router-link></li> -->
+        <li><router-link to = "/wishlist">Logout </router-link></li>
     </ul>
     </aside>
     
